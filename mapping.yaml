@@ -4,7 +4,6 @@ alb: "paresh-dev-alb"
 clusters:
   - cluster_name: "asgard"
     services:
-    services:
-        - service_repo: "git@github.com:pmahajan-ee/odin.git"
-          service_config_path: "service-config/config.yaml"
-          docker_image: "738035286324.dkr.ecr.us-east-1.amazonaws.com/paresh/odin:910018cf7180157c4eef9ad27f08782b79ac3df2"
+      - service_repo: "git@github.com:pmahajan-ee/odin.git"
+        service_config_path: "service-config/config.yaml"
+        docker_image: "738035286324.dkr.ecr.us-east-1.amazonaws.com/paresh/odin:910018cf7180157c4eef9ad27f08782b79ac3df2"
